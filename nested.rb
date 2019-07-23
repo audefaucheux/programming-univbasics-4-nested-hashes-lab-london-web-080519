@@ -15,8 +15,8 @@ def hopper
           :languages => ["C"]
         }
      }
-	#programmer_hash.delete[:alan_kay]
-	#programmer_hash.delete[:dennis_ritchie]
+	programmer_hash.delete(:alan_kay)
+	programmer_hash.delete(:dennis_ritchie)
 end
 
 def alan_kay_is_known_for
